@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+}
+
+section {
+    background-color: #121214;
+    display: inline-block;
+    width: 1280px;
+    height: 750px;
+    border-radius: 12px;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+}
+
+section.kenzieflix {
+    max-width: 230px;
+    max-height: 70px;
+}
+
+section h1.titulo {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    color: #ffff;
+    font-size: 32px;
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+section ul {
+    display: flex;
+    width: 720px;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+    flex-flow: wrap;
+}
+
+li.cardUsuario {    
+    width: 160px;
+    height: 200px;
+    border-radius: 8px;
+    list-style-type: none;
+}
+.imagem{
+    overflow: hidden;    
+    width: 160px;
+    max-height: 160px;
+    border-radius: 12px;
+    flex-direction: row;
+}
+
+img.cardUsuario_avatar {
+    height: 160px;
+    width: 160px;
+    box-sizing: content-box;
+    border-radius: 8px;
+    border: transparent 2px solid;
+    transition: transform .3s ease;
+
+}
+
+img.cardUsuario_avatar:hover {
+    border: #9C9C9C 2px solid;
+    border-radius: 8px;
+    transform: scale(1.2);
+}
+
+img.cardUsuario_novoAvatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    border: transparent 2px solid; 
+    opacity: 30%;   
+}
+
+img.cardUsuario_novoAvatar:hover {
+    border: #9C9C9C 2px solid;
+    opacity: 1;
+
+}
+
+.cardUsuario_usuario{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600px;
+    color:#9C9C9C;
+    text-align: center;
+
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    background-color: #121214;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #ffff;
+    color: #121214;
+}
